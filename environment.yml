@@ -1,0 +1,43 @@
+name: 2sat_interp
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch=2.1
+  - pytorch-cuda=12.1
+  - torchtext
+  - einops
+  - plotly
+  - python-kaleido
+  - wandb
+  - numpy
+  - pandas
+  - altair
+  - nodejs
+  - scipy
+  - sympy
+  - graphviz
+  - python-graphviz
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - numba
+  - toolz
+  - tqdm
+  - pip
+  - pylint
+  - dill
+  - ipykernel
+  - ipywidgets
+  - nbformat
+  - pip:
+      - z3-solver
+      - python-sat
+      - cnfgen
+      - circuitsvis
+      - python-louvain
+      - altair_saver
+      - vegafusion[embed]
+      - vegafusion-jupyter[embed]

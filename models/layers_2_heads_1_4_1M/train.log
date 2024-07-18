@@ -1,0 +1,152 @@
+-Namespace(data_path='../data/cnf_tokens_1M.npy', differential=False, load_model_path=None, num_clauses=10, num_heads=[1, 4], num_layers=2, num_vars=5, run_name='layers_2_heads_1_4_1M', satunsat_data_path=None, train=True, varlen_data_path=None)
+Config(load_model_path='../saved_runs/layers_2_heads_4/600.pth', data_path='../data/cnf_tokens_1M.npy', varlen_data_path='../data/cnf_tokens_7_8_9_varlen.npy', satunsat_data_path='../data/cnf_tokens_sat_unsat.npy', lr=0.001, weight_decay=1.0, nvars=5, nclauses=10, d_model=128, frac_train=0.6, num_epochs=1000, save_models=True, save_every=100, stopping_thresh=-1, seed=0, num_layers=2, batch_style='full', batch_size=10000, d_vocab=16, n_ctx=41, d_mlp=512, num_heads=[1, 4], act_type='ReLU', use_ln=False, take_metrics_every_n_epochs=100, device=device(type='cuda'), differential=False)
+SAT instances in fixed len data:  1000000
+UNSAT instances in fixed len data:  1000001
+SAT instances in train:  600000
+UNSAT instances in train:  600000
+SAT instances in test:  400000
+UNSAT instances in test:  400001
+training length =  1200000
+testing length =  800001
+Run name layers_2_heads_1_4_1M
+Epoch 0, train loss 4.0715, train acc 0.0000,                   test loss 4.0879, test acc 0.0000
+Saved epoch to wandb
+Saved model to saved_runs/layers_2_heads_1_4_1M/0.pth
+taking metrics
+Logged metrics to wandb
+Epoch 10, train loss 0.5232, train acc 0.7343,                   test loss 0.5199, test acc 0.7393
+Epoch 20, train loss 0.1410, train acc 0.9476,                   test loss 0.1149, test acc 0.9587
+Epoch 30, train loss 0.0804, train acc 0.9718,                   test loss 0.0417, test acc 0.9875
+Epoch 40, train loss 0.1165, train acc 0.9572,                   test loss 0.0944, test acc 0.9676
+Epoch 50, train loss 0.6226, train acc 0.7161,                   test loss 0.5394, test acc 0.7272
+Epoch 60, train loss 0.2448, train acc 0.9000,                   test loss 0.1659, test acc 0.9367
+Epoch 70, train loss 0.0498, train acc 0.9841,                   test loss 0.0191, test acc 0.9969
+Epoch 80, train loss 0.0864, train acc 0.9695,                   test loss 0.4624, test acc 0.7739
+Epoch 90, train loss 0.1692, train acc 0.9358,                   test loss 0.0834, test acc 0.9715
+Epoch 100, train loss 0.0987, train acc 0.9658,                   test loss 0.0411, test acc 0.9898
+Saved epoch to wandb
+Saved model to saved_runs/layers_2_heads_1_4_1M/100.pth
+taking metrics
+Logged metrics to wandb
+Epoch 110, train loss 0.0701, train acc 0.9773,                   test loss 0.0301, test acc 0.9924
+Epoch 120, train loss 0.4152, train acc 0.8378,                   test loss 0.2294, test acc 0.9144
+Epoch 130, train loss 0.1456, train acc 0.9464,                   test loss 0.0912, test acc 0.9691
+Epoch 140, train loss 0.0245, train acc 0.9932,                   test loss 0.0185, test acc 0.9956
+Epoch 150, train loss 0.0689, train acc 0.9764,                   test loss 0.0571, test acc 0.9802
+Epoch 160, train loss 0.0512, train acc 0.9835,                   test loss 0.1966, test acc 0.9264
+Epoch 170, train loss 0.0173, train acc 0.9957,                   test loss 0.0098, test acc 0.9981
+Epoch 180, train loss 0.1442, train acc 0.9488,                   test loss 0.1144, test acc 0.9610
+Epoch 190, train loss 0.1318, train acc 0.9539,                   test loss 0.0753, test acc 0.9748
+Epoch 200, train loss 0.0640, train acc 0.9780,                   test loss 0.0475, test acc 0.9853
+Saved epoch to wandb
+Saved model to saved_runs/layers_2_heads_1_4_1M/200.pth
+taking metrics
+Logged metrics to wandb
+Epoch 210, train loss 0.0393, train acc 0.9881,                   test loss 0.0844, test acc 0.9708
+Epoch 220, train loss 0.0309, train acc 0.9909,                   test loss 0.0371, test acc 0.9896
+Epoch 230, train loss 0.0267, train acc 0.9921,                   test loss 0.0130, test acc 0.9972
+Epoch 240, train loss 0.2188, train acc 0.9106,                   test loss 0.1958, test acc 0.9252
+Epoch 250, train loss 0.2452, train acc 0.8928,                   test loss 0.3122, test acc 0.8669
+Epoch 260, train loss 0.0269, train acc 0.9922,                   test loss 0.0134, test acc 0.9972
+Epoch 270, train loss 0.0462, train acc 0.9850,                   test loss 0.0340, test acc 0.9909
+Epoch 280, train loss 0.0410, train acc 0.9883,                   test loss 0.0203, test acc 0.9958
+Epoch 290, train loss 0.0488, train acc 0.9842,                   test loss 0.0350, test acc 0.9900
+Epoch 300, train loss 0.1162, train acc 0.9586,                   test loss 0.0894, test acc 0.9704
+Saved epoch to wandb
+Saved model to saved_runs/layers_2_heads_1_4_1M/300.pth
+taking metrics
+Logged metrics to wandb
+Epoch 310, train loss 0.0974, train acc 0.9681,                   test loss 0.0436, test acc 0.9893
+Epoch 320, train loss 0.1207, train acc 0.9572,                   test loss 0.0416, test acc 0.9879
+Epoch 330, train loss 0.2747, train acc 0.8829,                   test loss 0.1449, test acc 0.9511
+Epoch 340, train loss 0.0967, train acc 0.9669,                   test loss 0.0399, test acc 0.9890
+Epoch 350, train loss 0.1663, train acc 0.9381,                   test loss 0.0964, test acc 0.9679
+Epoch 360, train loss 0.1725, train acc 0.9395,                   test loss 0.1819, test acc 0.9356
+Epoch 370, train loss 0.0526, train acc 0.9825,                   test loss 0.0301, test acc 0.9921
+Epoch 380, train loss 0.0379, train acc 0.9884,                   test loss 0.0170, test acc 0.9964
+Epoch 390, train loss 0.0186, train acc 0.9948,                   test loss 0.0528, test acc 0.9786
+Epoch 400, train loss 0.1714, train acc 0.9357,                   test loss 0.1101, test acc 0.9598
+Saved epoch to wandb
+Saved model to saved_runs/layers_2_heads_1_4_1M/400.pth
+taking metrics
+Logged metrics to wandb
+Epoch 410, train loss 0.0333, train acc 0.9900,                   test loss 0.0144, test acc 0.9976
+Epoch 420, train loss 0.0322, train acc 0.9901,                   test loss 0.0167, test acc 0.9957
+Epoch 430, train loss 0.0243, train acc 0.9933,                   test loss 0.0155, test acc 0.9962
+Epoch 440, train loss 0.0958, train acc 0.9660,                   test loss 0.0478, test acc 0.9852
+Epoch 450, train loss 0.0677, train acc 0.9781,                   test loss 0.0628, test acc 0.9805
+Epoch 460, train loss 0.0436, train acc 0.9862,                   test loss 0.0335, test acc 0.9878
+Epoch 470, train loss 0.0289, train acc 0.9922,                   test loss 0.0270, test acc 0.9925
+Epoch 480, train loss 0.0599, train acc 0.9814,                   test loss 0.0503, test acc 0.9832
+Epoch 490, train loss 0.0566, train acc 0.9802,                   test loss 0.0572, test acc 0.9792
+Epoch 500, train loss 0.0267, train acc 0.9922,                   test loss 0.0249, test acc 0.9933
+Saved epoch to wandb
+Saved model to saved_runs/layers_2_heads_1_4_1M/500.pth
+taking metrics
+Logged metrics to wandb
+Epoch 510, train loss 0.0118, train acc 0.9978,                   test loss 0.1368, test acc 0.9546
+Epoch 520, train loss 0.0360, train acc 0.9891,                   test loss 0.0125, test acc 0.9977
+Epoch 530, train loss 0.0676, train acc 0.9768,                   test loss 0.0594, test acc 0.9805
+Epoch 540, train loss 0.0385, train acc 0.9883,                   test loss 0.0127, test acc 0.9977
+Epoch 550, train loss 0.0382, train acc 0.9881,                   test loss 0.0270, test acc 0.9927
+Epoch 560, train loss 0.0617, train acc 0.9796,                   test loss 0.0460, test acc 0.9848
+Epoch 570, train loss 0.0548, train acc 0.9819,                   test loss 0.1576, test acc 0.9443
+Epoch 580, train loss 0.0383, train acc 0.9892,                   test loss 0.0262, test acc 0.9925
+Epoch 590, train loss 0.0490, train acc 0.9846,                   test loss 0.0493, test acc 0.9868
+Epoch 600, train loss 0.0699, train acc 0.9767,                   test loss 0.0462, test acc 0.9848
+Saved epoch to wandb
+Saved model to saved_runs/layers_2_heads_1_4_1M/600.pth
+taking metrics
+Logged metrics to wandb
+Epoch 610, train loss 0.0168, train acc 0.9960,                   test loss 0.0181, test acc 0.9952
+Epoch 620, train loss 0.1130, train acc 0.9623,                   test loss 0.0548, test acc 0.9840
+Epoch 630, train loss 0.0281, train acc 0.9919,                   test loss 0.4096, test acc 0.8642
+Epoch 640, train loss 0.0431, train acc 0.9861,                   test loss 0.0240, test acc 0.9943
+Epoch 650, train loss 0.0728, train acc 0.9745,                   test loss 0.4097, test acc 0.8158
+Epoch 660, train loss 0.1150, train acc 0.9590,                   test loss 0.0688, test acc 0.9766
+Epoch 670, train loss 0.0508, train acc 0.9851,                   test loss 0.0252, test acc 0.9932
+Epoch 680, train loss 0.0718, train acc 0.9764,                   test loss 0.0306, test acc 0.9929
+Epoch 690, train loss 0.0165, train acc 0.9963,                   test loss 0.0155, test acc 0.9962
+Epoch 700, train loss 0.0381, train acc 0.9882,                   test loss 0.0542, test acc 0.9845
+Saved epoch to wandb
+Saved model to saved_runs/layers_2_heads_1_4_1M/700.pth
+taking metrics
+Logged metrics to wandb
+Epoch 710, train loss 0.0118, train acc 0.9975,                   test loss 0.0088, test acc 0.9981
+Epoch 720, train loss 0.0321, train acc 0.9902,                   test loss 0.0216, test acc 0.9941
+Epoch 730, train loss 0.0399, train acc 0.9868,                   test loss 0.0487, test acc 0.9834
+Epoch 740, train loss 0.0408, train acc 0.9872,                   test loss 0.1964, test acc 0.9285
+Epoch 750, train loss 0.0375, train acc 0.9887,                   test loss 0.0209, test acc 0.9946
+Epoch 760, train loss 0.0362, train acc 0.9888,                   test loss 0.0120, test acc 0.9979
+Epoch 770, train loss 0.0611, train acc 0.9812,                   test loss 0.0413, test acc 0.9877
+Epoch 780, train loss 0.0199, train acc 0.9958,                   test loss 0.0168, test acc 0.9959
+Epoch 790, train loss 0.0842, train acc 0.9720,                   test loss 0.0459, test acc 0.9845
+Epoch 800, train loss 0.0589, train acc 0.9800,                   test loss 0.0318, test acc 0.9920
+Saved epoch to wandb
+Saved model to saved_runs/layers_2_heads_1_4_1M/800.pth
+taking metrics
+Logged metrics to wandb
+Epoch 810, train loss 0.0097, train acc 0.9986,                   test loss 0.0073, test acc 0.9989
+Epoch 820, train loss 0.0119, train acc 0.9974,                   test loss 0.3399, test acc 0.9174
+Epoch 830, train loss 0.0414, train acc 0.9867,                   test loss 0.0400, test acc 0.9866
+Epoch 840, train loss 0.0198, train acc 0.9947,                   test loss 0.0095, test acc 0.9982
+Epoch 850, train loss 0.0167, train acc 0.9959,                   test loss 0.0130, test acc 0.9969
+Epoch 860, train loss 0.1990, train acc 0.9274,                   test loss 0.1395, test acc 0.9529
+Epoch 870, train loss 0.1872, train acc 0.9263,                   test loss 0.0820, test acc 0.9715
+Epoch 880, train loss 0.0353, train acc 0.9901,                   test loss 0.0247, test acc 0.9941
+Epoch 890, train loss 0.0573, train acc 0.9823,                   test loss 0.0371, test acc 0.9891
+Epoch 900, train loss 0.0283, train acc 0.9916,                   test loss 0.0113, test acc 0.9976
+Saved epoch to wandb
+Saved model to saved_runs/layers_2_heads_1_4_1M/900.pth
+taking metrics
+Logged metrics to wandb
+Epoch 910, train loss 0.0185, train acc 0.9951,                   test loss 0.0303, test acc 0.9906
+Epoch 920, train loss 0.0255, train acc 0.9927,                   test loss 0.0169, test acc 0.9958
+Epoch 930, train loss 0.0309, train acc 0.9911,                   test loss 0.0072, test acc 0.9995
+Epoch 940, train loss 0.0576, train acc 0.9808,                   test loss 0.0537, test acc 0.9796
+Epoch 950, train loss 0.1390, train acc 0.9499,                   test loss 0.0980, test acc 0.9655
+Epoch 960, train loss 0.0263, train acc 0.9930,                   test loss 0.0431, test acc 0.9848
+Epoch 970, train loss 0.0346, train acc 0.9894,                   test loss 0.0159, test acc 0.9961
+Epoch 980, train loss 0.0407, train acc 0.9876,                   test loss 0.0092, test acc 0.9989
+Epoch 990, train loss 0.0570, train acc 0.9820,                   test loss 0.0297, test acc 0.9910
+Saved model to saved_runs/layers_2_heads_1_4_1M/final.pth
